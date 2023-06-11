@@ -1,6 +1,6 @@
 package programmers
 
-fun solution(n: Int, computers: Array<IntArray>): Int {
+private fun solution(n: Int, computers: Array<IntArray>): Int {
     var answer = 0
     val visited = BooleanArray(n)
     for (v in 0 until n) {

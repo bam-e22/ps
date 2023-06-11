@@ -1,7 +1,7 @@
 package programmers
 
 
-fun solution(targets: Array<IntArray>): Int {
+private fun solution(targets: Array<IntArray>): Int {
     var answer: Int = 0
     targets.sortWith { t1, t2 ->
         val a = t1[1].compareTo(t2[1])

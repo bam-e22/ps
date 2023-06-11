@@ -65,7 +65,7 @@ fun dfs(tickets: Array<Array<String>>, visited: BooleanArray, city: String, hist
     }
 }
 
-fun solution(tickets: Array<Array<String>>): Array<String> {
+private fun solution(tickets: Array<Array<String>>): Array<String> {
     val visited = BooleanArray(tickets.size)
     //tickets.sortBy { it[1] }
     dfs(tickets, visited, "ICN", listOf("ICN"))
